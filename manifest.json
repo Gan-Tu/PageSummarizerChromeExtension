@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Page Summarizer",
+  "version": "1.0",
+  "description": "Summarizes the current webpage using Grok.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
