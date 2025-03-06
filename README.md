@@ -2,6 +2,8 @@
 
 A Chrome extension that summarizes webpages on click using the xAI Grok API, with optional Jina API support for fetching page content. Users can configure their API keys through an options page for a seamless experience.
 
+Demo: https://cln.sh/GbLJfN1j
+
 ## Features
 - Summarizes the active webpage with a single click.
 - Integrates with xAI's Grok API for concise, plain-text summaries (max 100 words).
