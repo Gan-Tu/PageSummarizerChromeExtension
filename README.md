@@ -31,7 +31,7 @@ Demo: https://cln.sh/GbLJfN1j
 2. **Load the Extension in Chrome**:
    - Open Chrome and navigate to `chrome://extensions/`.
    - Enable "Developer mode" (toggle in the top right).
-   - Click "Load unpacked" and select the `page-summarizer` folder.
+   - Click "Load unpacked" and select the `PageSummarizerChromeExtension` folder.
 
 3. **Configure API Keys**:
    - Right-click the extension icon in Chrome and select "Options".
