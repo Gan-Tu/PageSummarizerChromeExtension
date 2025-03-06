@@ -3,8 +3,13 @@
   "name": "Page Summarizer",
   "version": "1.0",
   "description": "Summarizes the current webpage using Grok.",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": [
+    "http://r.jina.ai/*",
+    "https://api.x.ai/*"
+  ],
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+  "options_page": "options.html"
 }
