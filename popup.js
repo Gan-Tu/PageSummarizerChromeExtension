@@ -53,7 +53,7 @@ async function getSummaryFromOpenAI(text, apiKey) {
       Authorization: `Bearer ${apiKey}`
     },
     body: JSON.stringify({
-      model: "grok-2-latest",
+      model: "grok-3",
       messages: [
         {
           role: "system",
